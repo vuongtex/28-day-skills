@@ -1,9 +1,9 @@
 ---
-name: vtx-giu-key
+name: giu-key
 description: Luật giữ khoá API và dữ liệu khách khi build sản phẩm bán ở Việt Nam. Chặn key lọt lên GitHub, chặn dữ liệu người thật lọt vào commit và ảnh chụp màn hình, và chốt hướng dòng tiền để không vướng giấy phép trung gian thanh toán. Kích hoạt khi chạm tới API key, tệp .env, trước khi commit hoặc push, khi chụp màn hình nộp bài, hoặc khi thiết kế luồng thu tiền.
 ---
 
-# /vtx-giu-key
+# /giu-key
 
 Ba loại thứ dễ rò trong lúc build: khoá API, dữ liệu người thật, và dòng tiền.
 Skill này chặn cả ba.

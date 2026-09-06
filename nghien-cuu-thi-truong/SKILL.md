@@ -1,9 +1,9 @@
 ---
-name: vtx-nghien-cuu-thi-truong
+name: nghien-cuu-thi-truong
 description: Nghiên cứu một thị trường Việt Nam trước khi build, ra bản một trang có đối thủ, giá, ma trận khoảng trống và TAM SAM SOM. Mọi con số gắn nhãn nguồn, số không truy được nguồn thì từ chối in. Kích hoạt khi nói "nghiên cứu thị trường", "research thị trường", "đối thủ đang bán gì", "thị trường này còn trống chỗ nào", "trước khi build tôi cần biết gì".
 ---
 
-# /vtx-nghien-cuu-thi-truong
+# /nghien-cuu-thi-truong
 
 Từ một câu hỏi ra một bản nghiên cứu dùng được để quyết định. Agent làm phần
 nặng, bạn giữ hai việc không giao được: đặt mục tiêu, và sàng lọc kết quả.

@@ -1,9 +1,9 @@
 ---
-name: vtx-kiem-thu
+name: kiem-thu
 description: Kiểm thử một công cụ AI sao cho con số đo được là thật, không phải vòng lặp tự xác nhận. Chặn lỗi cùng một người vừa viết dữ liệu, vừa viết đáp án, vừa viết bộ chấm. Kích hoạt khi nói "kiểm thử", "test công cụ", "đo độ chính xác", "công cụ này chạy đúng chưa", "làm sao biết AI chấm đúng".
 ---
 
-# /vtx-kiem-thu
+# /kiem-thu
 
 Skill này tồn tại vì một lỗi thật, mắc trong một ngày build, và suýt nữa được
 đem đi nộp như một thành tích.
