@@ -30,7 +30,7 @@ những dấu hiệu mà bộ chấm đi tìm, nên khớp cao là tất yếu.
 Đó là **vòng lặp tự xác nhận**. Nó chỉ chứng minh người viết nhất quán với
 chính mình, không chứng minh gì về sản phẩm.
 
-## Luật số 1, ba vai phải tách
+## Luật số 1, 3 vai phải tách
 
 > Người viết **dữ liệu kiểm thử**, người viết **đáp án**, và người viết **bộ
 > chấm** không được là cùng một người.
@@ -52,7 +52,7 @@ Dữ liệu bịa dùng được cho đúng một việc: kiểm đường ống
 Nó **không** đo được chất lượng phán đoán. Muốn đo chất lượng thì phải lấy dữ
 liệu từ công việc thật.
 
-Trong tài liệu, hai loại này phải ghi thành hai dòng riêng, đừng gộp:
+Trong tài liệu, 2 loại này phải ghi thành 2 dòng riêng, đừng gộp:
 
 | Chế độ | Đo cái gì | Dùng dữ liệu gì |
 |---|---|---|
@@ -96,14 +96,14 @@ Thiếu câu đó thì con số vô nghĩa với người đọc, và với chí
 ## Luật số 4, kết quả AI dao động giữa các lần chạy
 
 Mô hình ngôn ngữ không cho ra kết quả giống hệt nhau mỗi lần, **kể cả khi đặt
-temperature bằng 0**. Cùng một bộ dữ liệu chạy hai lần có thể ra hai con số
+temperature bằng 0**. Cùng một bộ dữ liệu chạy 2 lần có thể ra 2 con số
 khác nhau.
 
 Nên:
 
-- Chạy ít nhất 2 lần, ghi cả hai con số
+- Chạy ít nhất 2 lần, ghi cả 2 con số
 - Đừng khoe con số cao nhất, ghi khoảng dao động
-- Chênh lệch vài phần trăm giữa hai lần chạy là bình thường, đừng chỉnh tiêu
+- Chênh lệch vài phần trăm giữa 2 lần chạy là bình thường, đừng chỉnh tiêu
   chí vì nó
 
 ## Khi chưa kịp đo trên dữ liệu thật

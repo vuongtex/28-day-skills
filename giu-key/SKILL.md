@@ -1,12 +1,12 @@
 ---
 name: giu-key
-description: Luật giữ khoá API và dữ liệu khách khi build sản phẩm bán ở Việt Nam. Chặn key lọt lên GitHub, chặn dữ liệu người thật lọt vào commit và ảnh chụp màn hình, và chốt hướng dòng tiền để không vướng giấy phép trung gian thanh toán. Kích hoạt khi chạm tới API key, tệp .env, trước khi commit hoặc push, khi chụp màn hình nộp bài, hoặc khi thiết kế luồng thu tiền.
+description: Luật giữ khoá API và dữ liệu khách khi build sản phẩm đem bán. Chặn key lọt lên GitHub, chặn dữ liệu người thật lọt vào commit và ảnh chụp màn hình, và chốt hướng dòng tiền để không vướng giấy phép trung gian thanh toán. Kích hoạt khi chạm tới API key, tệp .env, trước khi commit hoặc push, khi chụp màn hình nộp bài, hoặc khi thiết kế luồng thu tiền.
 ---
 
 # /giu-key
 
-Ba loại thứ dễ rò trong lúc build: khoá API, dữ liệu người thật, và dòng tiền.
-Skill này chặn cả ba.
+3 loại thứ dễ rò trong lúc build: khoá API, dữ liệu người thật, và dòng tiền.
+Skill này chặn cả 3.
 
 ## Khoá API
 
@@ -78,8 +78,8 @@ khi viết dòng mã đầu tiên:
 ### Nếu có
 
 Đó là hoạt động thu hộ chi hộ, và nhiều khả năng cần **giấy phép trung gian
-thanh toán** do Ngân hàng Nhà nước cấp. Đây là rào cản pháp lý nặng, không giải
-được bằng cách viết mã.
+thanh toán** do cơ quan quản lý tiền tệ nước sở tại cấp, ở Việt Nam là Ngân hàng
+Nhà nước. Đây là rào cản pháp lý nặng, không giải được bằng cách viết mã.
 
 ### Nếu không
 
@@ -87,7 +87,7 @@ Mỗi người bán tự gắn tài khoản ngân hàng và tài khoản cổng 
 họ. Tiền đi thẳng từ người mua vào tài khoản người bán. Hệ thống của bạn chỉ
 **đọc tín hiệu báo có** để mở quyền, không bao giờ nằm trên đường đi của tiền.
 
-**Chọn hướng thứ hai.** Nó cũng là hướng các nền tảng Việt đang đi, và nó có
+**Chọn hướng thứ 2.** Nó cũng là hướng phần lớn nền tảng đang đi, và nó có
 thêm một lợi ích: bạn không phải trả phí giao dịch, vì mỗi người bán dùng hạn
 mức miễn phí của chính họ.
 

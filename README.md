@@ -1,6 +1,8 @@
-# SKILL
+# 28 Day Skills
 
-Bộ luật làm việc cho agent, viết cho người build sản phẩm bán ở thị trường Việt Nam.
+Bộ luật làm việc cho agent, dành cho người build sản phẩm để đem bán.
+
+Đây là bộ skill dùng trong khoá **28 Day Vibe Coding**.
 
 Mỗi skill là một tệp luật. Agent tự đọc khi gặp đúng việc, không cần gọi tên.
 
@@ -12,7 +14,7 @@ Mỗi skill là một tệp luật. Agent tự đọc khi gặp đúng việc, k
 | `kiem-thu` | Đo xem công cụ chạy đúng chưa, sao cho con số là thật |
 | `giu-key` | Chạm tới khoá API, dữ liệu người thật, hoặc luồng thu tiền |
 
-Ba skill này không phải lý thuyết. Mỗi luật trong đó rút từ một lỗi đã mắc thật
+3 skill này không phải lý thuyết. Mỗi luật trong đó rút từ một lỗi đã mắc thật
 trong lúc build, và mỗi luật đều ghi rõ lỗi đó là gì.
 
 ## Cài
@@ -38,12 +40,13 @@ Cài xong, mở một phiên agent mới rồi hỏi thử:
 
 > Tôi sắp nghiên cứu một thị trường, có luật nào phải theo không?
 
-Agent nhắc lại được 3 luật riêng cho thị trường Việt Nam là đã nhận skill.
+Agent nhắc lại được 3 luật trong `nghien-cuu-thi-truong` là đã nhận skill.
 
 ## Sửa cho hợp việc của bạn
 
-Ba tệp `SKILL.md` là văn bản thường, mở ra sửa được. Ví dụ trong đó lấy từ ngành
-bán khoá học online. Bạn ở ngành khác thì thay ví dụ, giữ nguyên phần luật.
+3 tệp `SKILL.md` là văn bản thường, mở ra sửa được. Ví dụ trong đó lấy từ ngành
+bán khoá học online ở thị trường Việt Nam. Bạn ở ngành khác hoặc thị trường khác
+thì thay ví dụ, giữ nguyên phần luật.
 
 Phần đáng giữ nhất là các mục **"Trước khi nộp, tự kiểm"**. Đó là chỗ chặn agent
 trả về một bản đẹp mà rỗng.

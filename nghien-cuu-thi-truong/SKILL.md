@@ -1,12 +1,12 @@
 ---
 name: nghien-cuu-thi-truong
-description: Nghiên cứu một thị trường Việt Nam trước khi build, ra bản một trang có đối thủ, giá, ma trận khoảng trống và TAM SAM SOM. Mọi con số gắn nhãn nguồn, số không truy được nguồn thì từ chối in. Kích hoạt khi nói "nghiên cứu thị trường", "research thị trường", "đối thủ đang bán gì", "thị trường này còn trống chỗ nào", "trước khi build tôi cần biết gì".
+description: Nghiên cứu một thị trường trước khi build, ra bản một trang có đối thủ, giá, ma trận khoảng trống và TAM SAM SOM. Mọi con số gắn nhãn nguồn, số không truy được nguồn thì từ chối in. Kích hoạt khi nói "nghiên cứu thị trường", "research thị trường", "đối thủ đang bán gì", "thị trường này còn trống chỗ nào", "trước khi build tôi cần biết gì".
 ---
 
 # /nghien-cuu-thi-truong
 
 Từ một câu hỏi ra một bản nghiên cứu dùng được để quyết định. Agent làm phần
-nặng, bạn giữ hai việc không giao được: đặt mục tiêu, và sàng lọc kết quả.
+nặng, bạn giữ 2 việc không giao được: đặt mục tiêu, và sàng lọc kết quả.
 
 ## Dùng khi nào
 
@@ -40,16 +40,17 @@ Dán nguyên đoạn này vào prompt của TỪNG agent:
 > TUYỆT ĐỐI không bịa số. Không tìm thấy thì ghi không tìm thấy.
 > Trả về dữ liệu thô, không tự tóm tắt gọn, không tự dựng trang, không publish gì.
 
-## 3 luật riêng cho thị trường Việt Nam
+## 3 luật ít tài liệu nào viết ra
 
-Ba luật này rút từ việc thật, không lấy từ sách.
+3 luật này rút từ việc thật, không lấy từ sách. Ví dụ trong đó lấy ở thị trường
+Việt Nam, còn luật thì thị trường nào cũng đúng.
 
 ### Luật 1, mở trang gốc, đừng đọc bài tổng hợp
 
 Bài so sánh trên mạng hay chép giá cũ từ vài năm trước. Tin vào đó là tính sai
 cả thị trường.
 
-Và cẩn thận với mã trạng thái: nhiều site Việt trả về 200 cho **mọi** đường
+Và cẩn thận với mã trạng thái: rất nhiều site trả về 200 cho **mọi** đường
 dẫn, kể cả đường dẫn bịa. Muốn biết một trang có thật hay không thì đọc nội
 dung và so độ dài, đừng tin mã 200.
 
@@ -67,8 +68,8 @@ truy được.
 ### Luật 3, đối thủ đáng sợ nhất có khi không phải phần mềm nào cả
 
 Ở khúc giá thấp, thứ khách đang dùng thường là công cụ miễn phí ghép lại bằng
-tay. Ví dụ trong ngành bán khoá học: Google Drive chứa video, Zalo giao tài
-khoản, chuyển khoản tay. Giá 0đ, không trần, dữ liệu nằm trong tay họ.
+tay. Ví dụ trong ngành bán khoá học: Google Drive chứa video, nhắn tin giao tài
+khoản, chuyển khoản tay. Giá 0 đồng, không trần, dữ liệu nằm trong tay họ.
 
 Ma trận khoảng trống mà bỏ sót nhóm này là ma trận sai. Luôn thêm một dòng
 "cách làm tay" vào bảng đối thủ.
@@ -80,15 +81,15 @@ Vào các trang đánh giá sản phẩm rồi **lọc riêng đánh giá 1 và 
 tốt. Đó có thể chính là chỗ để đi vào.
 
 Xếp nỗi đau theo **số nền tảng độc lập cùng bị chê một chuyện**. Một người chê
-là ý kiến, sáu nền tảng cùng bị chê một chuyện là quy luật.
+là ý kiến, 6 nền tảng cùng bị chê một chuyện là quy luật.
 
-Ở Việt Nam thường không có lớp đánh giá công khai. Nếu tìm không ra thì đó
-cũng là một phát hiện, ghi vào bản nghiên cứu. Khi đó phỏng vấn trực tiếp
+Nhiều thị trường không có lớp đánh giá công khai, Việt Nam là một ví dụ. Nếu
+tìm không ra thì đó cũng là một phát hiện, ghi vào bản nghiên cứu. Khi đó phỏng vấn trực tiếp
 người đang trả tiền không phải lựa chọn bổ sung, nó là nguồn duy nhất.
 
 ## Bước 3, tổng hợp
 
-- **Ba nhãn trên mọi con số:** đã mở trang gốc, sơ cấp, chưa xác minh. Hãng tự
+- **3 nhãn trên mọi con số:** đã mở trang gốc, sơ cấp, chưa xác minh. Hãng tự
   nói về mình thì là quảng cáo, dù nghe hay tới đâu
 - **TAM SAM SOM bắt buộc**, tính bằng chuỗi phép nhân với giả định in ra:
   ```
@@ -133,7 +134,7 @@ khách hiện có. Nên họ không làm.
 ## Xác thực trước khi build, 3 cách rẻ nhất
 
 Bản nghiên cứu nói thị trường có khoảng trống. Trước khi tốn một dòng mã, xác
-thực bằng ít nhất một trong ba cách, xếp theo độ rẻ:
+thực bằng ít nhất 1 trong 3 cách, xếp theo độ rẻ:
 
 1. **Trang mô tả kèm ô để lại email.** Chưa build gì cả. Đo xem ai thực sự để
    lại thông tin
