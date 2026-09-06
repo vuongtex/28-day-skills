@@ -1,0 +1,25 @@
+#!/bin/sh
+# Link moi skill trong repo nay vao ~/.claude/skills/ de agent tu nhan.
+# Chay lai bao nhieu lan cung an toan. Neu ban da co skill trung ten do chinh
+# ban viet thi script bo qua va bao ro, khong ghi de.
+set -e
+
+SRC="$(cd "$(dirname "$0")" && pwd)"
+DEST="$HOME/.claude/skills"
+mkdir -p "$DEST"
+
+for d in "$SRC"/*/; do
+  name="$(basename "$d")"
+  [ -f "$d/SKILL.md" ] || continue
+  target="$DEST/$name"
+  if [ -e "$target" ] && [ ! -L "$target" ]; then
+    echo "bo qua $name: $target da ton tai va khong phai do script nay tao ra"
+    continue
+  fi
+  ln -sfn "$SRC/$name" "$target"
+  echo "da link $name"
+done
+
+echo ""
+echo "Xong. Mo mot phien agent moi de no nhan skill."
+echo "Kiem tra: hoi agent 'toi sap nghien cuu mot thi truong, co luat nao phai theo khong'"
