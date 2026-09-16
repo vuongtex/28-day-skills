@@ -13,9 +13,15 @@ Mỗi skill là một tệp luật. Agent tự đọc khi gặp đúng việc, k
 | `nghien-cuu-thi-truong` | Trước khi build bất cứ thứ gì định đem bán |
 | `kiem-thu` | Đo xem công cụ chạy đúng chưa, sao cho con số là thật |
 | `giu-key` | Chạm tới khoá API, dữ liệu người thật, hoặc luồng thu tiền |
+| `ban-khoa-hoc` | Đóng gói chuyên môn thành khoá học, dựng đường tự mở quyền học |
 
-3 skill này không phải lý thuyết. Mỗi luật trong đó rút từ một lỗi đã mắc thật
+4 skill này không phải lý thuyết. Mỗi luật trong đó rút từ một lỗi đã mắc thật
 trong lúc build, và mỗi luật đều ghi rõ lỗi đó là gì.
+
+Chúng rút ra từ một sản phẩm đang chạy thật, nền tảng bán khoá học
+[VUTEX.ACADEMY](https://build.vutex.academy/?ref=github-skill). Phần webhook,
+phần định giá theo dung lượng và phần đo nguồn trong `ban-khoa-hoc` là mã đang
+chạy trên đó chứ không phải ví dụ bịa.
 
 ## Cài
 

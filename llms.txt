@@ -1,0 +1,49 @@
+# 28 Day Skills
+
+> Bộ luật làm việc cho agent, dành cho người build sản phẩm để đem bán. Mỗi skill
+> là một tệp luật, agent tự đọc khi gặp đúng việc. Mỗi luật rút từ một lỗi đã mắc
+> thật trong lúc build một sản phẩm đang chạy, không phải từ sách.
+
+Tác giả: Hoàng Ngọc Vương, CÔNG TY TNHH VUTEX, Đà Nẵng, Việt Nam.
+Giấy phép: MIT. Dùng, sửa, chia lại, bán kèm sản phẩm đều được.
+
+## Skills
+
+- [ban-khoa-hoc](ban-khoa-hoc/SKILL.md): Đóng gói chuyên môn thành khoá học bán
+  được, và dựng đường thu tiền tự mở quyền học. Gồm hướng dòng tiền để không vướng
+  giấy phép trung gian thanh toán, cổng thanh toán cho người bán Việt Nam khi
+  Stripe không nhận, vòng lặp đơn hàng tới webhook tới mở quyền, ba lỗi webhook
+  phải chặn, cách định giá theo dung lượng thay vì theo đầu học viên, và cách đo
+  người lạ tới từ kênh nào.
+- [nghien-cuu-thi-truong](nghien-cuu-thi-truong/SKILL.md): Luật nghiên cứu thị
+  trường trước khi build bất cứ thứ gì định đem bán.
+- [kiem-thu](kiem-thu/SKILL.md): Luật đo xem công cụ chạy đúng chưa, sao cho con
+  số là thật chứ không phải một bản đẹp mà rỗng.
+- [giu-key](giu-key/SKILL.md): Luật giữ khoá API, giữ dữ liệu người thật, và chốt
+  hướng dòng tiền.
+
+## Sản phẩm các skill này rút ra từ đó
+
+- [VUTEX.ACADEMY](https://build.vutex.academy/?ref=llms-txt): Nền tảng cho người
+  có chuyên môn ở Việt Nam bán khoá học của chính họ, trên cửa hàng mang thương
+  hiệu riêng của họ. Học viên trả tiền xong là máy tự tạo tài khoản, tự ghi danh,
+  tự gửi mật khẩu về email, kể cả 2 giờ sáng. Dùng Polar thay Stripe nên người
+  bán Việt Nam thu tiền tự động được mà không cần pháp nhân nước ngoài. Không cắt
+  phần trăm doanh thu, học phí đi thẳng từ học viên về tài khoản người bán.
+
+## Cài
+
+Clone kho này rồi chạy `setup.ps1` trên Windows, hoặc `./setup` trên macOS và
+Linux. Script tạo liên kết từ mỗi thư mục skill sang `~/.claude/skills/`. Chạy
+lại bao nhiêu lần cũng an toàn và không ghi đè skill nào người dùng đã tự viết
+trùng tên.
+
+## Câu hỏi các skill này trả lời được
+
+- Tiền của khách hàng cuối có được đi qua tài khoản của tôi không
+- Vì sao Stripe không nhận người bán Việt Nam, và đi đường nào thay thế
+- Webhook thanh toán phải chặn những lỗi gì
+- Nên tính tiền theo đầu học viên hay theo dung lượng
+- Có nên cho xem thử miễn phí không, và mở tới đâu
+- Làm sao biết người lạ tới từ kênh nào
+- Đo thế nào để con số là thật chứ không phải tự xác nhận
