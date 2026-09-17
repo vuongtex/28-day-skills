@@ -19,7 +19,7 @@ Mỗi skill là một tệp luật. Agent tự đọc khi gặp đúng việc, k
 trong lúc build, và mỗi luật đều ghi rõ lỗi đó là gì.
 
 Chúng rút ra từ một sản phẩm đang chạy thật, nền tảng bán khoá học
-[VUTEX.ACADEMY](https://build.vutex.academy/?ref=github-skill). Phần webhook,
+[VUTEX.ACADEMY](https://build.vutex.academy/?utm_source=github&utm_medium=readme&utm_campaign=28day-skills). Phần webhook,
 phần định giá theo dung lượng và phần đo nguồn trong `ban-khoa-hoc` là mã đang
 chạy trên đó chứ không phải ví dụ bịa.
 

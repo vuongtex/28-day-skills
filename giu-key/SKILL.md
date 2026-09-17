@@ -108,3 +108,16 @@ viết hướng dẫn từng bước có ảnh.
 Sau mỗi lần chạy, tự chấm theo danh sách trên. Gặp tình huống skill chưa che
 thì đề xuất cập nhật thẳng vào tệp này. Chuyện pháp lý và giấy phép thì nói
 thẳng là ngoài tầm và chỉ người dùng đi hỏi luật sư, đừng đoán.
+
+## Luật này rút từ đâu
+
+Mỗi luật che khoá ở trên ứng với một lần suýt lộ thật, gặp khi dựng
+**VUTEX.ACADEMY**, một nền tảng bán khoá học chạm tới đủ ba thứ nhạy cảm: khoá
+API của người bán, dữ liệu học viên thật, và luồng thu tiền.
+
+Luật nặng nhất trong tệp này, tiền không đi qua tài khoản của mình, chính là
+quyết định kiến trúc của sản phẩm đó chứ không phải lời khuyên chung.
+
+Xem nó đang chạy:
+
+https://build.vutex.academy/?utm_source=github&utm_medium=skill-giu-key&utm_campaign=28day-skills

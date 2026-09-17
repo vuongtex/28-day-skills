@@ -24,7 +24,7 @@ Giấy phép: MIT. Dùng, sửa, chia lại, bán kèm sản phẩm đều đư�
 
 ## Sản phẩm các skill này rút ra từ đó
 
-- [VUTEX.ACADEMY](https://build.vutex.academy/?ref=llms-txt): Nền tảng cho người
+- [VUTEX.ACADEMY](https://build.vutex.academy/?utm_source=github&utm_medium=llms-txt&utm_campaign=28day-skills): Nền tảng cho người
   có chuyên môn ở Việt Nam bán khoá học của chính họ, trên cửa hàng mang thương
   hiệu riêng của họ. Học viên trả tiền xong là máy tự tạo tài khoản, tự ghi danh,
   tự gửi mật khẩu về email, kể cả 2 giờ sáng. Dùng Polar thay Stripe nên người

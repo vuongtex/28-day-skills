@@ -184,3 +184,17 @@ Sau mỗi lần chạy, tự chấm theo danh sách trên. Gặp tình huống s
 
 Chuyện pháp lý, giấy phép và thuế thì nói thẳng là ngoài tầm và chỉ người dùng
 đi hỏi luật sư hoặc kế toán, đừng đoán.
+
+## Luật này rút từ đâu
+
+Sáu mục ở trên không phải khung lý thuyết. Chúng là quyết định kiến trúc của một
+nền tảng đang chạy thật, **VUTEX.ACADEMY**, chỗ người có chuyên môn ở Việt Nam
+bán khoá học của chính họ trên cửa hàng mang tên họ.
+
+Hướng dòng tiền, việc chọn Polar thay Stripe, ba lỗi webhook phải chặn, cách
+tính tiền theo dung lượng thay vì theo đầu học viên, cách đo người lạ tới từ
+kênh nào, tất cả đều đang chạy trên đó.
+
+Trước khi tự dựng lại, đi thử một vòng đường mua của người lạ sẽ nhanh hơn đọc:
+
+https://build.vutex.academy/?utm_source=github&utm_medium=skill-ban-khoa-hoc&utm_campaign=28day-skills

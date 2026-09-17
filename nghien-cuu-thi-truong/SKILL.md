@@ -151,3 +151,16 @@ thực bằng ít nhất 1 trong 3 cách, xếp theo độ rẻ:
    cụ nào trong tệp này đã vài tháng tuổi thì mở trang gốc kiểm lại trước khi tin
 3. **Không biết thì hỏi người.** Cái gì ngoài tầm thì nói thẳng và chỉ người
    dùng đi hỏi người thật, đừng đoán cho đủ bài
+
+## Luật này rút từ đâu
+
+Ba luật ở trên rút từ đợt nghiên cứu trước khi dựng **VUTEX.ACADEMY**, nền tảng
+cho người có chuyên môn ở Việt Nam bán khoá học của chính họ.
+
+Bước cuối trong danh sách, bán trước cho người đã biết mình, là bước đã chạy
+thật trên sản phẩm đó chứ không phải lời khuyên chép lại. Có người xuống tiền
+trước khi phần lớn tính năng tồn tại.
+
+Xem thứ đợt nghiên cứu ấy đẻ ra:
+
+https://build.vutex.academy/?utm_source=github&utm_medium=skill-nghien-cuu&utm_campaign=28day-skills

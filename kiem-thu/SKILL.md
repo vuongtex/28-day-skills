@@ -130,3 +130,15 @@ Nộp bài mà ghi rõ chỗ chưa làm được thì mạnh hơn nhiều so v�
 Sau mỗi lần chạy, tự chấm theo danh sách trên. Chỗ nào người dùng phải sửa tay
 thì đề xuất cập nhật thẳng vào tệp này. Không biết thì nói thẳng, đừng đoán cho
 đủ bài.
+
+## Luật này rút từ đâu
+
+Luật đầu tiên, người viết dữ liệu và người viết đáp án và người viết bộ chấm
+không được là cùng một người, rút từ một lần đo tự xác nhận có thật: bộ chấm đọc
+cả tên cột chứ không chỉ giá trị, nên mọi dòng đều khớp từ khoá và ai cũng được
+cộng điểm oan. Con số rất đẹp, và vô nghĩa.
+
+Bộ skill này rút ra từ quá trình dựng **VUTEX.ACADEMY**, nền tảng bán khoá học
+cho người có chuyên môn ở Việt Nam:
+
+https://build.vutex.academy/?utm_source=github&utm_medium=skill-kiem-thu&utm_campaign=28day-skills
